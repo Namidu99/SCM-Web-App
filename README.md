@@ -26,8 +26,17 @@ A collaborative open-source web application developed as part of our Software Co
 - GitHub Actions for CI/CD
 
 ## 🧪 How to Run Locally
-```bash
+
+# Step 1: Clone the repository using the project's Git URL.
 git clone https://github.com/Namidu99/SCM-Web-App.git
-npm install
+
+# Step 2: Navigate to the project directory.
+cd SCM-Web-App
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
+
 

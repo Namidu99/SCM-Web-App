@@ -28,5 +28,6 @@ A collaborative open-source web application developed as part of our Software Co
 ## 🧪 How to Run Locally
 ```bash
 git clone https://github.com/Namidu99/SCM-Web-App.git
+npm install
 npm run dev
 

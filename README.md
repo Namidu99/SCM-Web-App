@@ -1,10 +1,6 @@
 # SCM-Web-App
 A collaborative open-source web application developed as part of our Software Configuration Management course. This project demonstrates GitHub SCM practices including version control, CI/CD, and team collaboration.
 
-# MyWebApp
-
-A collaborative open-source web app developed by [Your Team Name].
-
 ## 👥 Team Members and Roles
 - K.A.N.H.Kumarasinghe (Project Manager)
 - M.A.K.N.Hershal (Developer)
@@ -21,7 +17,7 @@ A collaborative open-source web app developed by [Your Team Name].
 
 ## 🛠️ Tech Stack
 - Frontend: React with TypeScript
-- Styling: Tailwind CSS + shadcn/ui components
+- Styling: Tailwind CSS + shadcn / UI components
 - Routing: React Router for navigation
 - Icons: Lucide React for beautiful icons
 - State Management: React hooks and context

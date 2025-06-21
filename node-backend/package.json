@@ -4,7 +4,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",

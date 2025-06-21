@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: '/SCM-Web-App/',
   plugins: [
     react(),
     mode === "development" && componentTagger(), // only run in dev

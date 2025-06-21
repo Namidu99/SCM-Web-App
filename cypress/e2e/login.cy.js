@@ -1,6 +1,6 @@
 describe('Login Page', () => {
   it('should display login form and submit with test data', () => {
-    cy.visit('http://localhost:8080/login');
+    cy.visit('http://localhost:8080/SCM-Web-App/login');
 
     // Type into username and password fields
     cy.get('input[placeholder="Enter your username"]').type('testuser');

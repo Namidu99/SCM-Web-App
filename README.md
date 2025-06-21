@@ -1,4 +1,7 @@
 # SCM-Web-App
+
+![CI](https://github.com/Namidu99/SCM-Web-App/actions/workflows/ci.yml/badge.svg)
+
 A collaborative open-source web application developed as part of our Software Configuration Management course. This project demonstrates GitHub SCM practices including version control, CI/CD, and team collaboration.
 
 ## 👥 Team Members and Roles

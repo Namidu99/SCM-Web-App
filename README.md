@@ -18,6 +18,7 @@ A collaborative open-source web app developed by [Your Team Name].
 - Create event
 - Join event
 - Search event by name
+- View Event
 
 ## 🛠️ Tech Stack
 - Frontend: React with TypeScript

@@ -20,9 +20,11 @@ A collaborative open-source web application developed as part of our Software Co
 ## 🚀 Features
 
 - Sign Up / Login
-- Create Event
-- Join Event
-- Search Event by Name
+
+- Create event
+- Join event
+- Search event by name
+- View Event
 
 ## 🛠️ Tech Stack
 

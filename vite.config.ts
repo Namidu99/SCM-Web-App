@@ -1,30 +1,27 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
-import path from "path";
+import path from "node:path"; // use `node:` prefix for ESM compatibility
 import { componentTagger } from "lovable-tagger";
-
-// Added this import for Vitest config
 import { configDefaults } from "vitest/config";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
   },
+  base: '/SCM-Web-App/',
   plugins: [
     react(),
-    mode === "development" && componentTagger(),
+    mode === "development" && componentTagger(), // only run in dev
   ].filter(Boolean),
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      "@": path.resolve(".", "src"),
     },
   },
-  // Vitest configuration added here
   test: {
-    globals: true,          // Allows use of `test`, `expect` without importing
-    environment: "jsdom",   // Enables testing DOM (React components)
-    setupFiles: "./vitest.setup.ts",  // to import jest-dom matchers
+    globals: true,
+    environment: "jsdom",
+    setupFiles: "./vitest.setup.ts",
   },
 }));
